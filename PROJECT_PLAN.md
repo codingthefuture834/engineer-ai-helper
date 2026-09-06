@@ -42,8 +42,8 @@ An intelligent web application that allows users to interact with a conversation
 ## Architecture Decisions
 
 ### User Authentication
-- **Current**: Single-user application (no authentication)
-- **Future**: Can be extended with multi-user support
+- **Current**: Better Auth for user authentication and session management
+- **Future**: Extend authentication and authorization as the application grows
 
 ### AI Integration Strategy
 - **Method 1**: Function calling/tool use - AI calls defined functions to execute calculations
